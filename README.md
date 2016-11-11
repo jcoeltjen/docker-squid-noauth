@@ -13,7 +13,7 @@ docker run -d --restart=always \
   -p 3128:3128
   -e PROXY proxy.yourcompany.com \
   -e PORT 8080 \
-  -e USERNAME foo
-  -e PASSWORD bar
+  -e USERNAME foo \
+  -e PASSWORD bar \
   jcoeltjen/squid-noauth
 ```
